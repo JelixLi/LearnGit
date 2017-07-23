@@ -68,22 +68,22 @@ int main(void)
 				GPIO_SetBits(GPIOA,GPIO_Pin_6);
 			}
 		}*/
-		if(RxMessage.Data[0]==1)
-		{
-			Rece_Data=1;
-		}
-		else
-		{
-			Rece_Data=0;
-		}
-		if(Rece_Data)
-		{
-			GPIO_ResetBits(GPIOA,GPIO_Pin_6);
-		}
-		else
-		{
-			GPIO_SetBits(GPIOA,GPIO_Pin_6);
-		}
+//		if(RxMessage.Data[0]==1)
+//		{
+//			Rece_Data=1;
+//		}
+//		else
+//		{
+//			Rece_Data=0;
+//		}
+//		if(Rece_Data)
+//		{
+//			GPIO_ResetBits(GPIOA,GPIO_Pin_6);
+//		}
+//		else
+//		{
+//			GPIO_SetBits(GPIOA,GPIO_Pin_6);
+//		}
 	}
 }
 
